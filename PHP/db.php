@@ -3,10 +3,11 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$db = "site";
+$db = "atps";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $db);
 
 
-$query = "SELECT * FROM SELECAO";
+$query = "SELECT * FROM cadastro";
 $consulta_selecao = mysqli_query($conexao, $query);
+?>
